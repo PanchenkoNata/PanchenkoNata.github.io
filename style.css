@@ -1,0 +1,162 @@
+@font-face {
+    font-family: "HouschkaProBold"; 
+    src: url(fonts/HouschkaPro-Bold.otf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: "HouschkaProMedium"; 
+    src: url(fonts/HouschkaPro-Medium.otf); /* Путь к файлу со шрифтом */
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 100vw;
+	height: 100vh;
+	background-color: #266b97;
+	position: relative;
+	font-family: "HouschkaProBold";
+}
+.content {
+	width: 100vmin;
+	margin: 0 auto;
+}
+
+.sky {
+	height: 58.5vmin;
+	background-color: #b9d6ef;
+	border-bottom: solid 0.6vmin #daecf1;
+}
+.clouds {
+	width: 90.4vmin;
+}
+.clouds img {
+	width: 100%;
+    margin-left: 0.5vmin;
+}
+.info {
+	margin-top: 4vmin;
+	text-align: center;
+}
+h1 {
+	font-size: 9vmin;
+    text-transform: uppercase;
+    letter-spacing: 0.0vmin;
+    text-shadow: 2px 3px 0 rgba(0, 0, 0, 0.17);
+	color: #fefefe;
+	margin-left: 3vmin;
+}
+h2 {
+	font-size: 1.7vmin;
+    text-transform: uppercase;
+    letter-spacing: 0.02vmin;
+    font-family: "HouschkaProMedium";
+    color: #266B97;
+    padding-top: 0.3vmin;
+    margin-left: -0.5vmin;
+}
+form {
+    margin-top: 2.5vmin;
+}
+.email {
+	font-size: 1.5vmin;
+    font-family: "Arial";
+    color: #808080;
+    height: 4.6vmin;
+    width: 30vmin;
+    padding-left: 1.8vmin;
+    border-radius: 4px;
+	background-image: -moz-linear-gradient( 90deg, rgb(240,240,240) 0%, rgb(235,235,235) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(240,240,240) 0%, rgb(235,235,235) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(240,240,240) 0%, rgb(235,235,235) 100%);
+	box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.004),inset 0px 2px 5px 0px rgba(29, 26, 22, 0.2);
+}
+.btn {
+	font-size: 1.7vmin;
+	font-family: "HouschkaProBold";
+	text-shadow: 0px 1px 1px rgba(29, 26, 22, 0.2);
+	color: #ffffff;
+	height:4.6vmin;
+	width: 12vmin;
+	margin-left: 1vmin;
+	background: url(images/button.gif) no-repeat ;
+	background-size: cover;
+	border: solid 1px #fbc641;
+	border-radius: 4px;
+}
+
+.sea {
+	height: 41.5vmin;
+	border-top: solid 1vmin #327dad;
+	background-color: #266b97;
+	margin-top: -0.2vmin;
+	position: relative;
+}
+
+.ship {
+	width: 5.9vmin;
+    top: -2.9vmin;
+    left: 30%;
+    background-size: cover;
+    position: absolute;
+}
+.ship:hover .move-left{
+    transform: translate(-30vw,0);
+}
+.ship img {
+	width: 100%;
+	position: absolute;
+    transition: all 3s ease-in-out; /*ease-in-out - function 'begin & end slowly'*/
+}
+
+.ice img {
+	width: 41vmin;
+    margin-top: -24.6vmin;
+    margin-left: 29.6vmin;
+}
+
+.crono ul {
+	list-style: none;
+    margin-left: 31.8vmin;
+    margin-top: -30vmin;
+}
+.crono li {
+	display: inline-block;
+	text-align: center;
+}
+.hours {
+	margin: 0 3.4vmin 0 4.2vmin;
+}
+.crono div {
+	height: 8.7vmin;
+	width: 8.7vmin;
+	margin: 0 auto;
+	background-color: #b9d6ef;
+	border-radius: 50%;		
+}
+.crono span {
+	font-family: "HouschkaProMedium";
+	font-size: 3vmin;
+	color: #266b97;
+	display: inline-block;
+	padding-top: 2.7vmin;
+}
+.crono p {
+	font-size: 3vmin;
+	text-transform: uppercase;
+	color: #f3f3f3;
+	margin-top: 0.6vmin;
+}
+
+
+
+
+			
+
+
+
+
+
